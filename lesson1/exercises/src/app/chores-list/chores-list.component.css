@@ -1,6 +1,7 @@
 .chores {
     font-family: 'Times New Roman', Times, serif;
-    color: teal
+    color: teal;
+    font-size: large;
 }
 h3 {
     text-decoration-line: underline;
