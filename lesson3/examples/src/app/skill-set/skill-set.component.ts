@@ -8,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class SkillSetComponent implements OnInit {
    listHeading: string = 'Some Coding Skills I Know';
    skills: string[] = ['Loops', 'Conditionals', 'Functions', 'Classes', 'Modules', 'Git', 'HTML/CSS'];
-   alternateColor: string = 'black';
-   bulletType: string = 'A';
+   alternateColor: string = 'salmon';
+   bulletType: string = 'i';
    changeColor: boolean = true;
+   var1: number = 5;
+   var2: number = 4;
+   reved: string = "";
+
 
    constructor() { }
 
